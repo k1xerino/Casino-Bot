@@ -2,6 +2,9 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 const auth = require('./auth.json');
 
+const CoinFlip = require('Modules/coinflip');
+const Vote = require('Modules/vote');
+
 client.on("message", msg => {
   if (!msg.content.startsWith("!")) return;
   var withoutPrefix = msg.content.slice(1);
