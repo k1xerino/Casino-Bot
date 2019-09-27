@@ -1,2 +1,5 @@
-*
-!bot.js
+node_modules/
+auth.json
+package.json
+runbot.bat
+LICENSE
